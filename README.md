@@ -13,19 +13,37 @@
 O projeto consiste em um algorítimo de ordenação que recebe uma lista de números em qualquer ordem e utilizando a estratégia de dividir e conquistar para realizar a ordenação.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![Exemplo de ordenação 1](img/ordenacao1.png)
+
+![Exemplo de ordenação 1](img/ordenacao2.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: javascript<br>
+**Framework**: N/A<br>
+
+***Pre-requsitos***
+
+Possuir um navegador de internet instalado na máquina.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
+**Clonar o repositório**
+```
+    git clone https://github.com/projeto-de-algoritmos/D-C_dividir_e_conquistar
+```
+**Entar o repositório**
+```
+    cd D-C_dividir_e_conquistar/src
+```
+**Executar o comando**
+```
+    Abrir o arquivo index.html em um navegador
+```
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Observação: Os testes foram realizados em dois computadores um no sitema operacional UBUNTU 20.04 e outro no Windows 10.
 
 
 
+## Video
 
+[Video da apresentação](video/D-C_dividir_e_conquistar.mp4)
