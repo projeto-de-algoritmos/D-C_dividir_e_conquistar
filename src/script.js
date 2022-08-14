@@ -28,6 +28,8 @@ form.addEventListener('submit', (event) => {
     show(ordenado)
 })
 
+
+
 const merge = (leftArr, rightArr) => {
     const output = []
     let leftIndex = 0
@@ -66,15 +68,33 @@ const mergeSort = array => {
 
 function show(array) {
     const result = document.querySelector(".result")
-
     let element = document.createElement('p')
     element.textContent = `Elementos ordenados: ${array}`
     element.classList.add('orderedArray')
     result.appendChild(element)
 }
 
+
+clear.addEventListener('click', () => {//limpar o array
+    input.value = ''
+    /* const orderedArray = document.querySelector(".orderedArray")
+    const result = document.querySelector(".result")
+    result.removeChild(orderedArray)*/
+    numbersArray = []
+    array = [] 
+    // limpar elementos antigos
+    const oldElements = document.querySelectorAll(".orderedArray")
+    oldElements.forEach(element => {
+        element.remove()
+    }
+    )
+} )
+
+/* 
 clear.addEventListener('click', () => {
     input.value = ''
     const orderedArray = document.querySelector('.orderedArray')
     orderedArray.parentNode.removeChild(orderedArray)
 })
+ */
+
