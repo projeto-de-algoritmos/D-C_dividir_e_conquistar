@@ -72,6 +72,7 @@ function show(array) {
     element.textContent = `Elementos ordenados: ${array}`
     element.classList.add('orderedArray')
     result.appendChild(element)
+    input.value = ''
     
     if(isNaN(array[0])){
         input.value = ''
