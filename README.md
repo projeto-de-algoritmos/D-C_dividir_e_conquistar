@@ -18,9 +18,9 @@ O projeto consiste em um algorítimo de ordenação que recebe uma lista de núm
 
 ![Exemplo de ordenação 2](img/ordenacao2.png)
 
-![Exemplo de ordenação 3](img/ordenacao3.png)
+![Exemplo de ordenação 3](img/ordenacao4.png)
 
-![Exemplo de ordenação 4](img/ordenacao4.png)
+![Exemplo de ordenação 4](img/ordenacao3.png)
 
 ## Instalação 
 **Linguagem**: javascript<br>
